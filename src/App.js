@@ -29,7 +29,7 @@ import './App.css';
 
 function App() {
 
-  const promise = loadStripe("pk_test_51H7mexKuBWOuJqy5NpSMAwZPLhMziUAEpG6K0Hdb1a5sl2PjmbyNsUrlggrD9Y4BYLnm1NFZY0x61yUQAzOu3exn00nlZ10u2R");
+  const promise = loadStripe("STRIPE_PUBLISHABLE_KEY");
 
   const [{cart, user}, dispath] = useStateValue();
   useEffect(() => {
