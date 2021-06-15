@@ -1,0 +1,19 @@
+.order___individual {
+  padding: 40px;
+  margin: 20px 0;
+  border: 1px solid lightgray;
+  background-color: white;
+  position: relative;
+}
+
+.order___individual > .order___individual___id {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+
+.order___individual > .order__total {
+  font-weight: 500;
+  text-align: right;
+}
+/*# sourceMappingURL=Order.css.map */

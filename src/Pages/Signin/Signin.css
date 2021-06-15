@@ -1,0 +1,79 @@
+.page__signin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.page__signin > a > .logo {
+  margin: 20px auto 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100px;
+}
+
+.page__signin > .container {
+  width: 300px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.page__signin > .container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.page__signin > .container > form > .h5 {
+  margin-bottom: 5px;
+}
+
+.page__signin > .container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  width: 98%;
+}
+
+.page__signin > .container > form p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.page__signin > .container > form > .signInButton {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.page__signin > .container > form > .registerButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgray;
+}
+/*# sourceMappingURL=Signin.css.map */

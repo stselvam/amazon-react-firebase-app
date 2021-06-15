@@ -1,0 +1,68 @@
+.page__checkoutpayment {
+  background-color: #FFFFFF;
+}
+
+.page__checkoutpayment > .payment__container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: #eaeded;
+  border-bottom: 1px solid lightgray;
+}
+
+.page__checkoutpayment > .payment__container > h1 > a {
+  text-decoration: none;
+}
+
+.page__checkoutpayment > .payment__container .payment__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.page__checkoutpayment > .payment__container .payment__section > .payment__title {
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+}
+
+.page__checkoutpayment > .payment__container .payment__section > .payment__address, .page__checkoutpayment > .payment__container .payment__section > .payment__items, .page__checkoutpayment > .payment__container .payment__section > .payment__details {
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+}
+
+.page__checkoutpayment > .payment__container .payment__section > .payment__address, .page__checkoutpayment > .payment__container .payment__section > .payment__details {
+  margin-left: 20px;
+}
+
+.page__checkoutpayment > .payment__container .payment__section > .payment__details > form {
+  max-width: 360px;
+}
+
+.page__checkoutpayment > .payment__container .payment__section > .payment__details > form > .StripeElement {
+  margin: 10px 0;
+  padding: 10px 5px;
+  border: 1px solid lightgray;
+}
+
+.page__checkoutpayment > .payment__container .payment__section > .payment__details > form > .payment__price__tenter > h3 {
+  padding-bottom: 20px;
+}
+
+.page__checkoutpayment > .payment__container .payment__section > .payment__details > form > .payment__price__tenter > .payment__pay__now__button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  font-weight: bolder;
+  margin-top: 10px;
+  padding: 3px 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111111;
+}
+/*# sourceMappingURL=CheckoutPayment.css.map */
